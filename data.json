@@ -1,0 +1,89 @@
+{
+    "quiz_categories": [
+        {
+            "id": "programming",
+            "name": "Programming & Technology",
+            "description": "Test your coding knowledge",
+            "difficulty": "Intermediate",
+            "questions": 10,
+            "timePerQuestion": 30,
+            "icon": "fas fa-code"
+        },
+        {
+            "id": "science",
+            "name": "Science & Nature",
+            "description": "Explore scientific concepts",
+            "difficulty": "Medium",
+            "questions": 8,
+            "timePerQuestion": 25,
+            "icon": "fas fa-flask"
+        },
+        {
+            "id": "general",
+            "name": "General Knowledge",
+            "description": "Test your general awareness",
+            "difficulty": "Easy",
+            "questions": 12,
+            "timePerQuestion": 20,
+            "icon": "fas fa-question"
+        }
+    ],
+    "quiz_questions": {
+        "programming": [
+            {
+                "question": "What does CSS stand for?",
+                "options": ["Computer Style Sheets", "Creative Style System", "Cascading Style Sheets", "Code Structure Syntax"],
+                "answer": "Cascading Style Sheets"
+            },
+            {
+                "question": "Which programming language is known as the 'mother of all languages'?",
+                "options": ["C", "Fortran", "Java", "Lisp"],
+                "answer": "C"
+            },
+            {
+                "question": "What is the primary function of a `JOIN` clause in SQL?",
+                "options": ["To combine rows from two or more tables", "To create a new table", "To filter data", "To sort data"],
+                "answer": "To combine rows from two or more tables"
+            },
+            {
+                "question": "What is an API?",
+                "options": ["Application Protocol Interface", "Application Programming Interface", "Advanced Programming Instruction", "Automated Program Integration"],
+                "answer": "Application Programming Interface"
+            }
+        ],
+        "science": [
+            {
+                "question": "What is the chemical symbol for gold?",
+                "options": ["Au", "Ag", "Pb", "Fe"],
+                "answer": "Au"
+            },
+            {
+                "question": "What is the boiling point of water in Celsius?",
+                "options": ["90°C", "100°C", "110°C", "95°C"],
+                "answer": "100°C"
+            },
+            {
+                "question": "What is the largest planet in our solar system?",
+                "options": ["Earth", "Mars", "Jupiter", "Saturn"],
+                "answer": "Jupiter"
+            }
+        ],
+        "general": [
+            {
+                "question": "What is the capital of France?",
+                "options": ["London", "Berlin", "Madrid", "Paris"],
+                "answer": "Paris"
+            },
+            {
+                "question": "Who wrote 'Romeo and Juliet'?",
+                "options": ["William Shakespeare", "Charles Dickens", "Jane Austen", "Mark Twain"],
+                "answer": "William Shakespeare"
+            },
+            {
+                "question": "Which country is home to the kangaroo?",
+                "options": ["New Zealand", "Australia", "South Africa", "Brazil"],
+                "answer": "Australia"
+            }
+        ]
+    }
+}
